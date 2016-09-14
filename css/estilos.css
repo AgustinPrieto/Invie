@@ -22,6 +22,18 @@ body {
 .guitarras {
 	color: #1f313c;
 }
+
+.guitarra {
+	overflow: hidden;
+	border: 1px solid #1F313C;
+	padding: 10px;
+	margin:10px;
+}
+
+.guitarra ol {
+	padding: 0;
+}
+
 .guitarra h2 {
 	font-size: 35px;
 	font-family: 'Montserrat', sans-serif;
@@ -50,9 +62,25 @@ body {
 	display: inline-block;
 	margin-left: 30px;
 }
-#header {
-}
+
 .contenedor {
 	width: 800px;
 	margin: auto;
+}
+
+.left img {
+	float: left;
+}
+
+.right img {
+	float: right;
+}
+
+.contenedor-guitarra-a {
+	padding-left: 20px;
+}
+
+.contenedor-guitarra-b {
+	margin-left: 370px;
+	padding-left: 
 }
