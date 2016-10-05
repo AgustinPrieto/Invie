@@ -33,7 +33,7 @@ input:focus, textarea:focus{
 }
 
 .contenedor {
-	width: 800px;
+	max-width: 800px;
 	margin: auto;
 	position: relative;
 }
@@ -66,12 +66,12 @@ input:focus, textarea:focus{
 	text-decoration: underline;
 }
 
-.tittle-a {
+.title-a {
 	font-size: 24px;
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 0;
 }
-.tittle-b {
+.title-b {
 	font-size: 50px;
 	margin-bottom: 20px;  
 }
@@ -235,4 +235,53 @@ input:focus, textarea:focus{
 
 .tabla{
 	margin: 75px 0;
+}
+
+@media screen and (max-width: 800px) {
+	/*portada*/
+	.titulo{
+		font-size: 45px;
+		margin-top: 30px;
+	}
+	.title-a{
+		font-size: 18px;
+	}
+	.portada{
+		height: auto;
+	}
+
+	.portada .button{
+		margin-bottom: 30px;
+		display: inline-block;
+	}
+	/*portada*/
+
+	/*guitarras*/
+	.guitarras{
+		text-align: center;
+	}
+
+	.left, .right{
+		float: none;
+		position: static;
+	}
+
+	.title-b{
+		margin: 0;
+	}
+	
+	.guitarra li {
+		list-style: none;
+	}
+
+	.guitarra.b {
+		height: auto;
+	}
+
+	.contenedor-guitarra-b{
+		position: static;
+		margin: 0;
+	}
+
+	/*guitarras*/
 }
